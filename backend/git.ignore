@@ -1,0 +1,24 @@
+# Ignore Maven/Gradle build folders
+/target/
+/build/
+
+# Ignore IntelliJ/VS Code project settings
+.idea/
+*.iml
+.vscode/
+
+# Ignore environment/property files
+src/main/resources/application.properties
+src/main/resources/application.yml
+.env
+
+# Ignore logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignore dependency lock files (optional)
+package-lock.json
+yarn.lock
+
+src/main/resources/serviceAccountKey.json
